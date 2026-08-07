@@ -245,6 +245,10 @@ section {
   color: #fff;
 }
 
+.cta-mobile-only {
+  display: none;
+}
+
 .nav-toggle {
   display: none;
   background: none;
