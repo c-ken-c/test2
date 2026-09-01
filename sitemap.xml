@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jinchang.tw/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://jinchang.tw/electric-valve/</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://jinchang.tw/pneumatic-valve/</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://jinchang.tw/electric-actuator/</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://jinchang.tw/pneumatic-actuator/</loc>
+    <lastmod>2026-09-01</lastmod>
   </url>
 </urlset>

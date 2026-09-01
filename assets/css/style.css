@@ -66,6 +66,15 @@ a {
   color: inherit;
 }
 
+.text-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--burgundy);
+  font-size: 14px;
+  font-weight: 700;
+  text-underline-offset: 4px;
+}
+
 .wrap {
   max-width: var(--max-width);
   margin: 0 auto;
