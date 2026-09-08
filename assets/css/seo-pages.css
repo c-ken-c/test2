@@ -161,6 +161,16 @@ h3 { font-size: 20px; }
 .faq { border-top: 1px solid var(--line); }
 .faq article { padding: 24px 0; border-bottom: 1px solid var(--line); }
 .faq p { margin: 8px 0 0; color: var(--ink-soft); }
+.table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+.decision-table { width: 100%; min-width: 640px; border-collapse: collapse; text-align: left; }
+.decision-table th, .decision-table td { padding: 17px 20px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.decision-table thead th { color: #fff; background: var(--burgundy-deep); }
+.decision-table tbody th { width: 24%; color: var(--burgundy); }
+.decision-table tbody tr:last-child th, .decision-table tbody tr:last-child td { border-bottom: 0; }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.steps article { padding: 28px; border-top: 4px solid var(--burgundy); background: var(--cream); }
+.steps span { display: block; margin-bottom: 12px; color: var(--burgundy); font-size: 13px; font-weight: 900; letter-spacing: .12em; }
+.steps p { margin: 10px 0 0; color: var(--ink-soft); }
 .related { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .related a { padding: 22px; border: 1px solid var(--line); border-radius: 7px; text-decoration: none; background: #fff; }
 .related a:hover { border-color: var(--burgundy); }
@@ -177,7 +187,7 @@ h3 { font-size: 20px; }
   .page-links a:not(.nav-contact) { display: none; }
   .hero-grid, .content-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 38px; }
-  .cards, .related { grid-template-columns: 1fr; }
+  .cards, .related, .steps { grid-template-columns: 1fr; }
   .check-list { grid-template-columns: 1fr; }
   .page-hero, .section { padding: 58px 0; }
   .cta .wrap, .page-footer .wrap { align-items: flex-start; flex-direction: column; }
